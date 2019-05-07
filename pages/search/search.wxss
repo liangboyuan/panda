@@ -1,0 +1,69 @@
+.shop_mess{
+  height: 200rpx;
+}
+.fans{
+  width: 50%;
+}
+.fans-color-s{
+  font-size: 25rpx;
+  color:grey;
+  margin-top: 10rpx;
+}
+.fans-color{
+  color: red;
+}
+.shop-name{
+  color: black;
+  font-size: 35rpx;
+  margin: 3rpx;
+}
+.mes{
+  margin-top: 8rpx;
+}
+.fruit-mes{
+  margin-top: -25rpx;
+  margin-left: -30rpx;
+  margin-right: -30rpx;
+}
+.img-mes{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.price-red{
+  font-size: 40rpx;
+}
+.price-grey{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  text-decoration:line-through;
+}
+.price-title{
+  margin-top: -18rpx;
+  margin-left:-110rpx;
+}
+.sp-name{
+  margin-left: -105rpx;
+  font-size: 35rpx;
+}
+.sell-num-1{
+  font-size: 25rpx;
+  margin-left: 350rpx;
+}
+.sell-num-2{
+  font-size: 25rpx;
+}
+.sell-num-3{
+  font-size: 25rpx;
+}
+.sp-time{
+  font-size: 25rpx;
+  margin-left: 50rpx;
+}
+.rz-title{
+  font-size: 30rpx;
+}
+image[class*="gif-"] {
+  display: block;
+}

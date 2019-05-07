@@ -1,0 +1,8 @@
+/* pages/cart/cart.wxss */
+.text-price-1{
+  font-size: 30rpx;
+}
+.text-price-2{
+  font-size: 25rpx;
+  text-decoration:line-through;
+}

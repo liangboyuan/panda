@@ -1,0 +1,76 @@
+<cu-custom bgColor="bg-gradual-green">
+  <view slot="content">Hello熊猫鲜生</view>
+</cu-custom>
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action center">
+    <text class="cuIcon-title text-green "></text> 购物车
+    <button class="cu-btn sm bg-red" style='margin-left :480rpx;font-size:25rpx;'>删除</button>
+  </view>
+</view>
+<block>
+  <view class="cu-list menu-avatar">
+    <view class="cu-item ">
+      <view class="cu-form-group">
+        <checkbox class="round green sm"></checkbox>
+      </view>
+      <view class="">
+        <navigator url='../things/things'>
+        <image class="" style='width:140rpx;height:130rpx;margin-right:320rpx;' src='../../images/yingtao.jpg' mode='aspectFill'></image>
+        </navigator>
+      </view>
+      <view class="content" style='margin-left:170rpx;'>
+        <view class="text-black">
+          <text class="text-cut">山东樱桃</text>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-red text-price-1">¥6.60<text class="text-grey margin-left-xs text-price-2">¥9.99</text></text>
+        </view>
+      </view>
+
+      <view class="action" style='width:150rpx;'>
+        <button class="cu-btn sm" style='margin-right:10rpx;font-size:30rpx;'>-</button>
+        <text>1</text>
+        <button class="cu-btn sm" style='margin-left:10rpx;font-size:30rpx;'>+</button>
+      </view>
+    </view>
+    <view class="cu-item ">
+      <view class="cu-form-group">
+        <checkbox class="round green sm"></checkbox>
+      </view>
+      <view class="">
+        <navigator url='../things/things'>
+          <image class="" style='width:140rpx;height:130rpx;margin-right:320rpx;' src='../../images/yingtao.jpg' mode='aspectFill'></image>
+        </navigator>
+      </view>
+      <view class="content" style='margin-left:170rpx;'>
+        <view class="text-black">
+          <text class="text-cut">山东樱桃</text>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-red text-price-1">¥6.60<text class="text-grey margin-left-xs text-price-2">¥9.99</text></text>
+        </view>
+      </view>
+
+      <view class="action" style='width:150rpx;'>
+        <button class="cu-btn sm" style='margin-right:10rpx;font-size:30rpx;'>-</button>
+        <text>1</text>
+        <button class="cu-btn sm" style='margin-left:10rpx;font-size:30rpx;'>+</button>
+      </view>
+    </view>
+  </view>
+  
+  <view style="height:100rpx; position:fixed; bottom:0;width: 750rpx;">
+    <view class="cu-form-group">
+      <checkbox class="round green sm" style='margin-left:30rpx;'>
+        <text style='margin-left:10rpx;'>全选（2）</text>
+      </checkbox>
+      <view>
+        <text>总计：</text><text class='text-red'>¥60</text>
+      </view>
+      <view class="margin-tb-sm text-center">
+        <button class="cu-btn round bg-green {{shadow?'shadow':''}}">提交订单</button>
+      </view>
+    </view>
+  </view>
+</block>
+
